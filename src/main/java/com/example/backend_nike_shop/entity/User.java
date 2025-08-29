@@ -32,6 +32,7 @@ public class User {
     String email;
     String phone;
     String address;
+    String fullName;
 
     @Column(name = "deleted", nullable = false)
     boolean deleted = false;
